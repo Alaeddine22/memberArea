@@ -1,0 +1,119 @@
+<html>
+<head>
+       <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/signin.css">
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-custom">
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item">
+          <h3 class="titre">ESPACE MEMBRE</h3>
+          </li>
+          <li>
+           <a class="nav-link gg" href="index.html">ACCUEIL</a>
+          </li>
+      </ul>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto ">
+              <li class="nav-item">
+                <a class="nav-link" href="signin.html"  style="color: greenyellow">S'INSCRIRE <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item topBotomBordersIn ">
+                <a class="nav-link " href="login.html">SE CONNECTER</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    
+    <main class="main">
+        <div class="img-left">
+            <img src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" width="700">
+        </div>
+        <div class="form-group connect">
+            <h4>
+                Inscrivez-vous
+            </h4>
+            <input type="text"  class="form-control pseudo top" placeholder="Nom Complet" id="ncomp">
+            <input type="text"  class="form-control pseudo top" placeholder="Pseudo" id="sin-pseudo">
+            <input type="email"  class="form-control pseudo top" placeholder="E-mail" id="email">
+            <input type="password"  class="form-control top" placeholder="Mot de passe" id="pwd1">
+            <input type="password"  class="form-control top" placeholder="Confirmez votre mot de passe" id="pwd2">
+                <div class="top">
+                    <input type="checkbox" id="cbox">
+                        J'accepte les   
+                    <a href="#">
+                        Termes et Conditions.   
+                    </a>
+                </div>
+            <button class="btn btn-outline-success btn-block top" onclick="validateSignin()">
+                S'INSCRIRE
+            </button>
+                <div class="top">
+                    <p>
+                        Vous avez déjà un compte ?
+                    </p>
+                    <a href="login.html">
+                        Connectez-vous.   
+                    </a>
+                </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="container-fluid footer ">
+  
+      <div  class="col-6 ">
+      <p>
+          2018 © Tout les droits sont réservés. Ce site est crée par Alaeddine Ben Amor.
+        </p>
+      </div>
+      
+    <div class="col-6">
+          <p>
+              <a href="#"><i class="fa fa-facebook-official fa-2x"></i></a>  <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+              <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="#"><i class="fa fa-pinterest-p fa-2x"></i></a>
+            
+        </p>
+    </div>
+</footer>
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/formValidate.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+main{
+    display: -webkit-flex; 
+    -webkit-flex-wrap: wrap;
+    margin-top: 124px;
+    display: flex;
+     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-right: 300px;
+}
+
+.top{
+        margin-top: 10px;
+
+}
+
+a{
+    color:forestgreen;
+}
+a:hover{
+    color: yellowgreen;
+}
+
+@media screen and (max-width: 480px) {
+    img {
+        padding-top: 100px;
+         width: 274px;
+    }
+    .connect{
+        padding-right: 0px;
+    }
+}
